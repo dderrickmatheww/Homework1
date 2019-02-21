@@ -56,7 +56,7 @@ nav ul li:last-child a {
     background: white;
     padding: 25px;
     border: 2px solid #ccc;
-
+    overflow: auto;
 
 }
 
@@ -119,6 +119,30 @@ h2 {
     display: block;
 }
 
+.port-item {
+
+position: relative;
+margin-bottom: 20px;
+float: left;
+width: 45%;
+height: 100px;
+padding: 128px 0 15px 0;
+}
+
+.port-item:nth-last-of-type(even) {
+    float: right;
+}
+
+.port-item h4 {
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
 .clearfix {
     display: block;
     clear: both;
@@ -139,3 +163,33 @@ h2 {
     width: 960px;
     margin: 0 auto;
 }
+
+#port1 {
+    background: url(../Homework1/hangman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    #port2 {
+    background: url(../Homework1/riw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    #port3 {
+    background-image: url(../Homework1/rpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    #port4 {
+    background-image: url(../Homework1/rps.png);
+   
+    }
+    
+    #port5 {
+        background-image: url(../Homework1/trivia.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
