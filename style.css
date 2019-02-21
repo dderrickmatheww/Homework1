@@ -113,10 +113,11 @@ h2 {
 .me {
     float: left;
     margin: 0 15px 15px 0;
-    border: 1px solid #ccc;
+    border: 2px double #ccc;
     width: 200px;
     height: 400px;
     display: block;
+    text-shadow: 2px 2px #ccc;
 }
 
 .port-item {
