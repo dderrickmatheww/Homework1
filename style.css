@@ -194,3 +194,20 @@ padding: 128px 0 15px 0;
         background-repeat: no-repeat;
     
     }
+
+    .contactlinks {
+       top: 90px;
+       right: 0;
+        position: absolute;
+        display: inline;
+        padding: 3px;
+       
+    }
+    
+    .linkedcon {
+        width: 150px;
+        height: 200px;
+        border: 2px solid #ccc;
+        margin-top: 30px;
+
+    }
