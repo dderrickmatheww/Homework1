@@ -61,11 +61,39 @@ nav ul li:last-child a {
 }
 
 p {
-    font-size: 120px;
+    font-size: 20px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 
+form label {
+font-size: 18px;
+display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form textarea {
+
+    height: 300px;
+
+}
+
+form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 2px solid #ccc;
+}
 footer {
     background: #666;
     border-top: 3px solid #4aaaa5;
